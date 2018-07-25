@@ -1,0 +1,33 @@
+git status  //查看文件状态
+git add hello.php //工作区提交至暂存区
+git commit -m '提交描述'
+
+初始化
+git config --global user.name ''
+git config --global user.email ''
+
+ls 查看当前文件
+pwd 当前工作目录
+
+mkdir test 创建文件夹
+cd test 进入test目录
+git int 初始化
+touch test.php
+
+vi test.php 修改
+wq 保存  
+rm -rf test.php 删除
+git rm test.php
+git push 
+git clone 仓库地址 
+
+git cinfig--list 查看仓库信息
+
+访问个人站点
+http://用户名.github.io
+仓库名必须是：用户名.github.io 
+新建 index.html 文件
+仅支持静态文件
+
+ptoject pages 项目站点
+https://用户名.github.io/仓库名
