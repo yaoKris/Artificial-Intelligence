@@ -1,0 +1,26 @@
+import --- as ---//将包导入，简称
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[-4,-3,-2,-1])
+plt.show()
+
+
+Numpy:
+import numpy as np
+x=np.arry(a)//将向量转化为ndarry对象
+
+x=np.arrange(11)//0-10的arry
+x=np.loadtxt('wenjianming.csv',delimiter=',',skiprows=1,usecols=(1,5,6),unpack=Fase)
+//delimiter='数据分隔符号'  skiprows跳过行 usecols选用行数 
+a,b,c=np.loadtxt('wenjianming.csv',delimiter=',',skiprows=1,usecols=(1,5,6),unpack=True)
+//分成三个列向量，放到abc中
+
+c[0:5]//截取0-4段
+c[::步长]
+
+调用函数
+c=np.random.randint(1,100,10)
+np.fun(c)
+c.fun
+
+plt.scatter(height,weight)
+plt.show
