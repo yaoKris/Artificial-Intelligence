@@ -2,7 +2,7 @@ import --- as ---//将包导入，简称
 import matplotlib.pyplot as plt
 plt.plot([1,2,3,4],[-4,-3,-2,-1])
 plt.show()
-
+%run  执行程序，独立空间执行
 
 Numpy:
 import numpy as np
@@ -16,11 +16,26 @@ a,b,c=np.loadtxt('wenjianming.csv',delimiter=',',skiprows=1,usecols=(1,5,6),unpa
 
 c[0:5]//截取0-4段
 c[::步长]
+c[:-1]    //从第一个到倒数第二个
 
 调用函数
 c=np.random.randint(1,100,10)
 np.fun(c)
 c.fun
 
-plt.scatter(height,weight)
+散点图
+plt.scatter(height,weight,s=点的大小,c='颜色',marker='点的形状',alpha=透明度)
 plt.show
+
+
+
+
+
+
+
+
+
+
+
+requirements.txt 所在的目录下，使用 pip3 install-r requirements.txt 命令，就能在当前的 python 环境中导入所有需要的包
+pip freeze>requirements.txt
